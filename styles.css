@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+    gap: 10px;
+    margin: 40px 20px 20px 20px;
+    /* background: peachpuff; */
+    background-color: #008c8c;
+background-image: url("https://www.transparenttextures.com/patterns/checkered-light-emboss.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    
+}
+h1{
+    font-size: 60px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.div1{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     width: 100%;
+     margin-bottom: 30px;
+}
+#city-input{
+    height: 37px;
+    width: 70%;
+}
+
+#Search-btn{
+    height: 36px;
+    width: 100px;
+}
+
+.div2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div2 h1{
+    font-size: 40px;
+    font-family: "Faculty Glyphic";
+    font-weight: 500;
+  font-style: normal;
+}
+.div2 h3{
+    font-size: 40px;
+    font-family: "Faculty Glyphic";
+  font-style: normal;
+}
+.div2 p{
+    font-size: 30px;
+    font-family: "Faculty Glyphic";
+  font-style: normal;
+}
+
+
+
+
